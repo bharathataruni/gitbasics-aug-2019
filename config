@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[user]
+	name = bharathataruni
+	email = tarunibharatha@gmail.com
+[remote "nanna"]
+	url = https://github.com/bharathataruni/gitbasics-aug-2019
+	fetch = +refs/heads/*:refs/remotes/nanna/*
+[branch "master"]
+	remote = nanna
+	merge = refs/heads/master
